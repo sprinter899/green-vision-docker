@@ -36,9 +36,9 @@ def upload_file():
 
             nuc = core.Core(file.filename)
 
-            flash("mass = ", nuc.mass, "gr")
-            flash("day = ", nuc.day)
-
+            flash(f"area = {nuc.area} pix")
+            flash(f"mass = {nuc.mass} gr")
+            flash(f"day = {nuc.day}")
 
             os.remove(file.filename)
             return redirect('/')
