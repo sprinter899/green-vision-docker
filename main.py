@@ -36,8 +36,8 @@ def upload_file():
 
             nuc = core.Core(file.filename)
 
-            flash(f"mass = {nuc.mass} gr")
-            flash(f"day = {nuc.day}")
+            flash("mass = ", nuc.mass, "gr")
+            flash("day = ", nuc.day)
 
 
             os.remove(file.filename)

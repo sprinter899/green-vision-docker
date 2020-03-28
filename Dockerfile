@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE  80
 
-CMD [ "python", "./main.py" ]
+CMD [ "python3", "./main.py" ]

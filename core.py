@@ -80,6 +80,6 @@ if __name__ == '__main__':
 
     core=Core(filename)
 
-    print(f"area = {core.area}")
-    print(f"mass = {core.mass}")
-    print(f"day = {core.day}")
+    #print(f"area = {core.area}")
+    #print(f"mass = {core.mass}")
+    #print(f"day = {core.day}")
